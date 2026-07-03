@@ -1,5 +1,5 @@
 import UserModel from "../models/user.model.js";
-import { generateUserId } from "../utils/generate-Id.js";
+import { generateUserId } from "../utils/generate-id.js";
 
 export const getAllUsers = async (req, res) => {
     try {
